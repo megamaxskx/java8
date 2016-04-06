@@ -21,7 +21,7 @@ public class Car {
 		public default String getBestCarName() {
 			return "BMW";
 		}
-		
+
 		public default boolean isBestCar(Car car) {
 			return car.getName().equals(getBestCarName());
 		}
